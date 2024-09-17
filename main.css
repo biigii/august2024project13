@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+nav {
+  padding: 20px;
+  height: 150px;
+  background-color: #53dce3;
+  display: flex;
+  gap: 30px;
+  justify-content: end;
+  align-items: end;
+}
+nav a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #000;
+}
+nav a:nth-child(2) {
+  color: #d32727;
+  align-self: center;
+}
+
+section {
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+section img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section figure {
+  flex-basis: 40%;
+}
+section .content {
+  flex-basis: 60%;
+}
+
+article {
+  display: flex;
+  gap: 20px;
+}
+article p:first-child {
+  flex-basis: 30%;
+}
+article p:last-child {
+  flex-basis: 70%;
+}
+
+.flexbox {
+  background-color: #bbb;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: start;
+  align-content: end;
+  flex-wrap: wrap;
+}
+.flexbox p {
+  background-color: #c44949;
+  color: #fff;
+  font-size: 3em;
+}/*# sourceMappingURL=main.css.map */
