@@ -1,1 +1,6 @@
-/*# sourceMappingURL=main.css.map */
+.text {
+  text-align: center;
+  font-size: 10em;
+  text-transform: capitalize;
+  color: #10d510
+}
