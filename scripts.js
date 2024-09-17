@@ -1,8 +1,9 @@
-var heading = document.querySelector(".heading");
-heading.classList.add("text");
-// heading.classList = "text"
+// var mainHeading = document.createElement("h1")
+// // mainHeading.innerHTML = "hello world";
+// mainHeading.textContent = "hello world";
+// document.body.appendChild(mainHeading)
 
-var h2 = document.querySelector(".subheading")
-h2.classList.remove("subheading")
-
-document.querySelector("#image").setAttribute("alt","picture of a city at night")
+var p = document.createElement("p");
+p.textContent = "some text from javascript";
+var content = document.querySelector("article.content");
+content.appendChild(p) ;
